@@ -3,6 +3,8 @@ package com.example.eberhard.cst2335_labs;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.View;
+import android.widget.ImageButton;
 
 public class ListItemsActivity extends AppCompatActivity {
 
@@ -11,6 +13,14 @@ public class ListItemsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_items);
         Log.i(ACTIVITY_NAME,"In onCreate()");
+        imageButton = (ImageButton) findViewById(R.id.imageButton);
+        imageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                
+            }
+        });
+
     }
 
     @Override
@@ -40,5 +50,5 @@ public class ListItemsActivity extends AppCompatActivity {
     }
 
     protected static final String ACTIVITY_NAME ="ListItemsActivity";
-
+    private ImageButton imageButton;
 }
