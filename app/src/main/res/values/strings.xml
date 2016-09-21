@@ -11,6 +11,7 @@
     <string name="button_1">Button 1</string>
     <string name="button_2">Button 2</string>
     <string name="switch_1">Enable Something</string>
-    <string name="login_string">email@domain.com</string>
+    <string name="login_default">email@domain.com</string>
+    <string name="login_string"></string>
     <string name="login_button">Login</string>
 </resources>

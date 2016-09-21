@@ -55,6 +55,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/login_button"
-        android:id="@+id/loginButton" />
+        android:id="@+id/loginButton"
+        android:layout_gravity="center_horizontal"/>
+
 
 </LinearLayout>

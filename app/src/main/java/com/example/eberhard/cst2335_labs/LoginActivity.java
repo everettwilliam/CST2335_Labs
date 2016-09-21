@@ -1,9 +1,14 @@
 package com.example.eberhard.cst2335_labs;
 
+import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -13,21 +18,15 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         Log.i(ACTIVITY_NAME, "In onCreate()");
-
-//        loginButton.setOnClickListener(new View.OnClickListener(){
-//            @Override
-//            public void onClick(View view){
-//
-//                SharedPreferences.Editor editor = shared.edit();
-//                EditText loginAddress = (EditText) findViewById(R.id.editLogin);
-//                editor.putString(getString(R.string.login_string),loginAddress.getText().toString());
-//                editor.commit();
-//
-//                Intent intent = new Intent(LoginActivity.this, StartActivity.class);
-//                startActivity(intent);
-//            }
-//        });
-
+        login = (Button) findViewById(R.id.loginButton);
+        login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                saveLogin();
+                Intent intent = new Intent(LoginActivity.this, StartActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override
@@ -40,10 +39,7 @@ public class LoginActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         Log.i(ACTIVITY_NAME, "In onStart()");
-//        String defaultValue = getResources().getString(R.string.login_string);
-//        String email = shared.getString(getString(R.string.login_string), defaultValue);
-//        EditText loginAddress = (EditText) findViewById(R.id.editLogin);
-//        loginAddress.setText(email);
+        displayLogin();
     }
 
     @Override
@@ -64,7 +60,22 @@ public class LoginActivity extends AppCompatActivity {
         Log.i(ACTIVITY_NAME, "In onDestroy()");
     }
 
-      protected static final String ACTIVITY_NAME = "LoginActivity";
-      protected Button button = (Button) findViewById(R.id.loginButton);
-//    SharedPreferences shared = this.getPreferences(Context.MODE_PRIVATE);
+    private void saveLogin(){
+        username = (EditText) findViewById(R.id.editLogin);
+        SharedPreferences shared = getSharedPreferences("login_info", Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = shared.edit();
+        editor.putString("login_id", username.getText().toString());
+        editor.commit();
+    }
+
+    private void displayLogin(){
+        SharedPreferences shared = getSharedPreferences("login_info", Context.MODE_PRIVATE);
+        String email = shared.getString("login_id","email@domain.com");
+        username = (EditText) findViewById(R.id.editLogin);
+        username.setText(email);
+    }
+
+    protected static final String ACTIVITY_NAME = "LoginActivity";
+    private Button login;
+    private EditText username;
 }

@@ -18,6 +18,7 @@ public class StartActivity extends AppCompatActivity {
         super.onResume();
         Log.i(ACTIVITY_NAME,"In onResume()");
     }
+
     @Override
     protected void onStart(){
         super.onStart();
