@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Labor Zwei</string>
+    <string name="app_name">Labor Drei</string>
     <string name="hello_message">Guten Tag!</string>
     <string name="button_text">Ich bin Schalter!</string>
 
-    <string name="title_lab_2">Labor Zwei</string>
+    <string name="title_lab">Labor Drei</string>
     <string name="login_title">Anmeldung</string>
     <string name="login_name">Benutzername</string>
     <string name="login_password">Passwort</string>
@@ -13,4 +13,5 @@
     <string name="button_1">Schalter 1</string>
     <string name="button_2">Schalter 2</string>
     <string name="switch_1">Einschalten</string>
+    <string name="login_Button">Anmeldung</string>
 </resources>

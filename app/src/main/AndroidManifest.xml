@@ -16,17 +16,16 @@
         </activity>
         <activity
             android:name=".LoginActivity"
-            android:label="@string/title_lab_2"
+            android:label="@string/title_lab"
             android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".ListItemsActivity"
-            android:label="@string/title_lab_2"
+            android:label="@string/title_lab"
             android:theme="@style/AppTheme">
         </activity>
     </application>

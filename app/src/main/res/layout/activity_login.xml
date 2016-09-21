@@ -29,7 +29,8 @@
         android:ems="10"
         android:id="@+id/editLogin"
         android:hint="@string/login_name"
-        android:textSize="@dimen/start_text_font"/>
+        android:textSize="@dimen/start_text_font"
+        android:paddingTop="25dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -37,7 +38,8 @@
         android:text="@string/login_password"
         android:textSize="@dimen/start_text_font"
         android:id="@+id/passwordTextView"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="50dp" />
 
     <EditText
         android:layout_width="match_parent"
@@ -46,6 +48,13 @@
         android:ems="10"
         android:id="@+id/editPassword"
         android:hint="@string/login_password_lc"
-        android:textSize="@dimen/start_text_font"/>
+        android:textSize="@dimen/start_text_font"
+        android:paddingTop="25dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_button"
+        android:id="@+id/loginButton" />
 
 </LinearLayout>

@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Lab_2</string>
+    <string name="app_name">Lab_3</string>
     <string name="hello_message">Hello World!</string>
     <string name="button_text">I\'m a button!</string>
-    <string name="title_lab_2">Lab_2</string>
+    <string name="title_lab">Lab_3</string>
     <string name="login_title">Login</string>
     <string name="login_name">login name</string>
     <string name="login_password">Password</string>
@@ -11,4 +11,6 @@
     <string name="button_1">Button 1</string>
     <string name="button_2">Button 2</string>
     <string name="switch_1">Enable Something</string>
+    <string name="login_string">email@domain.com</string>
+    <string name="login_button">Login</string>
 </resources>
