@@ -14,4 +14,13 @@
     <string name="login_default">email@domain.com</string>
     <string name="login_string"></string>
     <string name="login_button">Login</string>
+
+    <string name="switch_on">Switch is On</string>
+    <string name="switch_off">Switch is Off</string>
+    <string name="response">Here\'s some junk!</string>
+
+    <string name="dialog_message">Would you like to finish the Activity?</string>
+    <string name="dialog_title">Finish Activity</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
 </resources>

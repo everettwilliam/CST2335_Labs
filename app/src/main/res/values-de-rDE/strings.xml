@@ -3,7 +3,7 @@
     <string name="app_name">Labor Drei</string>
     <string name="hello_message">Guten Tag!</string>
     <string name="button_text">Ich bin Schalter!</string>
-
+<!--Added Lab 2-->
     <string name="title_lab">Labor Drei</string>
     <string name="login_title">Anmeldung</string>
     <string name="login_name">Benutzername</string>
@@ -13,5 +13,12 @@
     <string name="button_1">Schalter 1</string>
     <string name="button_2">Schalter 2</string>
     <string name="switch_1">Einschalten</string>
-    <string name="login_Button">Anmeldung</string>
+<!--Added Lab 3-->
+    <string name="switch_on">Schalter ist auf</string>
+    <string name="switch_off">Schalter ist aus</string>
+    <string name="response">Hier ist Die Sachen!</string>
+    <string name="dialog_message">Möchten Sie die Aktivität zu beenden?</string>
+    <string name="dialog_title">Aktivität Fertig</string>
+    <string name="cancel">Nein</string>
+    <string name="ok">Ja</string>
 </resources>
