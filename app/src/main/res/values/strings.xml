@@ -1,8 +1,9 @@
 <resources>
-    <string name="app_name">Lab_3</string>
+    <string name="app_name">Lab_4</string>
     <string name="hello_message">Hello World!</string>
     <string name="button_text">I\'m a button!</string>
-    <string name="title_lab">Lab_3</string>
+    <string name="title_lab">Lab_4</string>
+    <!--Added Lab 2-->
     <string name="login_title">Login</string>
     <string name="login_name">login name</string>
     <string name="login_password">Password</string>
@@ -14,13 +15,17 @@
     <string name="login_default">email@domain.com</string>
     <string name="login_string"></string>
     <string name="login_button">Login</string>
-
+    <!--Added Lab 3-->
     <string name="switch_on">Switch is On</string>
     <string name="switch_off">Switch is Off</string>
     <string name="response">Here\'s some junk!</string>
-
     <string name="dialog_message">Would you like to finish the Activity?</string>
     <string name="dialog_title">Finish Activity</string>
     <string name="cancel">Cancel</string>
     <string name="ok">Ok</string>
+    <!--Added Lab 4-->
+    <string name="startChat">Start Chat</string>
+    <string name="send">Send</string>
+
+
 </resources>
