@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Labor Veir</string>
+    <string name="app_name">Labor Fünf</string>
     <string name="hello_message">Guten Tag!</string>
     <string name="button_text">Ich bin Schalter!</string>
 <!--Added Lab 2-->
-    <string name="title_lab">Labor Veir</string>
+    <string name="title_lab">Labor Fünf</string>
     <string name="login_title">Anmeldung</string>
     <string name="login_name">Benutzername</string>
     <string name="login_password">Passwort</string>
@@ -24,4 +24,5 @@
     <!--Added Lab 4-->
     <string name="startChat">Starten Gespräch</string>
     <string name="send">Senden</string>
+    <!--Added Lab 5-->
 </resources>
