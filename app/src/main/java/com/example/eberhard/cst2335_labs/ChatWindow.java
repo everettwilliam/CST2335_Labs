@@ -42,11 +42,8 @@ public class ChatWindow extends AppCompatActivity {
             do {
                 String message = cursor.getString(cursor.getColumnIndex(ChatDatabaseHelper.KEY_MESSAGE));
                 messages.add(message);
-
                 Log.i(ACTIVITY_NAME, "SQL MESSAGE: " + cursor.getString(cursor.getColumnIndex(ChatDatabaseHelper.KEY_ID)));
                 Log.i(ACTIVITY_NAME, "SQL MESSAGE: " + cursor.getString(cursor.getColumnIndex(ChatDatabaseHelper.KEY_MESSAGE)));
-
-
             } while (cursor.moveToNext());
         }
 
