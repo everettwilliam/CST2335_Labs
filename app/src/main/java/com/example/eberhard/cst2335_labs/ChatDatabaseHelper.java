@@ -29,6 +29,12 @@ public class ChatDatabaseHelper extends SQLiteOpenHelper {
         onCreate(db);
     }
 
+    @Override
+    public void onDowngrade(SQLiteDatabase db, int oldVersion, int newVersion){
+        Log.i(ACTIVITY_NAME, "Calling onDownGrade(), oldVersion=" + oldVersion + " newVersion=" + newVersion);
+
+    }
+
     public static final String DATABASE_NAME = "Chats.db";
     public static final int DATABASE_VERSION = 100;
     public static final String TABLE_NAME = "CHAT_TABLE";
