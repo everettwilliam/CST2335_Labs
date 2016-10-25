@@ -25,4 +25,10 @@
     <string name="startChat">Starten Gespräch</string>
     <string name="send">Senden</string>
     <!--Added Lab 5-->
+    <!--Added Lab 6-->
+    <string name="startWeather">Wettervorhersage</string>
+    <string name="currentText">Aktuelle Temperatur</string>
+    <string name="maxText">Max:</string>
+    <string name="minText">Min:</string>
+
 </resources>

@@ -34,6 +34,15 @@ public class StartActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        weather = (Button)findViewById(R.id.startWeather);
+        weather.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View view){
+                Log.i(ACTIVITY_NAME, "User clicked Weather Forecast");
+                Intent intent = new Intent(getApplicationContext(), WeatherForecast.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override
@@ -77,4 +86,6 @@ public class StartActivity extends AppCompatActivity {
     protected static final String ACTIVITY_NAME ="StartActivity";
     private Button button;
     private Button chat;
+    private Button weather;
+
 }
