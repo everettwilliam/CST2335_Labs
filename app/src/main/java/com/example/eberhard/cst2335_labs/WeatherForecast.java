@@ -27,12 +27,6 @@ import java.net.URL;
 
 public class WeatherForecast extends AppCompatActivity {
 
-    private ProgressBar progressBar;
-    private TextView currentTemp;
-    private TextView maxTemp;
-    private TextView minTemp;
-    private ImageView image;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -138,7 +132,6 @@ public class WeatherForecast extends AppCompatActivity {
                         weatherPic = BitmapFactory.decodeStream(connection.getInputStream());
                         FileOutputStream outputStream = openFileOutput(icon + ".png", Context.MODE_PRIVATE);
                         weatherPic.compress(Bitmap.CompressFormat.PNG, 80, outputStream);
-                        publishProgress(100);
                         outputStream.flush();
                         outputStream.close();
                     }
@@ -157,7 +150,7 @@ public class WeatherForecast extends AppCompatActivity {
                 connection.disconnect();
                 publishProgress(100);
             }
-            return "";
+            return null;
         }
 
         protected void onPostExecute(String result){
@@ -172,7 +165,7 @@ public class WeatherForecast extends AppCompatActivity {
             minTemp.setText(min + "°C");
             image.setImageBitmap(weatherPic);
 
-            //progressBar.setVisibility(View.GONE);
+            progressBar.setVisibility(View.GONE);
         }
 
         protected void onProgressUpdate(Integer...params){
@@ -214,4 +207,9 @@ public class WeatherForecast extends AppCompatActivity {
     }
 
     protected static final String ACTIVITY_NAME ="WeatherForecast";
+    private ProgressBar progressBar;
+    private TextView currentTemp;
+    private TextView maxTemp;
+    private TextView minTemp;
+    private ImageView image;
 }
