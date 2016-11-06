@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Labor Sechs</string>
+    <string name="app_name">Labor Sieben</string>
     <string name="hello_message">Guten Tag!</string>
     <string name="button_text">Ich bin Schalter!</string>
 <!--Added Lab 2-->
-    <string name="title_lab">Labor Sechs</string>
+    <string name="title_lab">Labor Sieben</string>
     <string name="login_title">Anmeldung</string>
     <string name="login_name">Benutzername</string>
     <string name="login_password">Passwort</string>
@@ -30,5 +30,7 @@
     <string name="currentText">Aktuelle Temperatur</string>
     <string name="maxText">Max:</string>
     <string name="minText">Min:</string>
+    <!--Added Lab 7-->
+
 
 </resources>

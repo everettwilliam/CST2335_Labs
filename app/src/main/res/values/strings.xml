@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Lab_6</string>
+    <string name="app_name">Lab_7</string>
     <string name="hello_message">Hello World!</string>
     <string name="button_text">I\'m a button!</string>
-    <string name="title_lab">Lab_6</string>
+    <string name="title_lab">Lab_7</string>
     <!--Added Lab 2-->
     <string name="login_title">Login</string>
     <string name="login_name">login name</string>
