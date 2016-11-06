@@ -30,7 +30,7 @@ public class StartActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Log.i(ACTIVITY_NAME, "User clicked Start Chat");
-                Intent intent = new Intent(getApplicationContext(),ChatWindow.class);
+                Intent intent = new Intent(getApplicationContext(),MessageListActivity.class);
                 startActivity(intent);
             }
         });

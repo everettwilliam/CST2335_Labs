@@ -32,5 +32,10 @@
     <string name="currentText">Current Temperature</string>
     <string name="maxText">Max:</string>
     <string name="minText">Min:</string>
+    <string name="title_message_list">Messages</string>
+    <string name="title_message_detail">Message Detail</string>
+    <!--Added Lab 7-->
+
+
 
 </resources>

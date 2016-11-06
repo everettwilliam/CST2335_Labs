@@ -6,4 +6,7 @@
     <dimen name="current_weather_font">32sp</dimen>
     <dimen name="weather_font">24sp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">200dp</dimen>
+    <dimen name="item_width">200dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
 </resources>
