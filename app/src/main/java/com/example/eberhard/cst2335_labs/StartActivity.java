@@ -43,6 +43,14 @@ public class StartActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        toolbar = (Button)findViewById(R.id.toolbarButton);
+        toolbar.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View view){
+                Intent intent = new Intent(getApplicationContext(), TestToolbar.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override
@@ -87,5 +95,5 @@ public class StartActivity extends AppCompatActivity {
     private Button button;
     private Button chat;
     private Button weather;
-
+    private Button toolbar;
 }

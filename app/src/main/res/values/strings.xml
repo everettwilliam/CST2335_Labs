@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Lab_6</string>
+    <string name="app_name">Lab_8</string>
     <string name="hello_message">Hello World!</string>
     <string name="button_text">I\'m a button!</string>
-    <string name="title_lab">Lab_6</string>
+    <string name="title_lab">Lab_8</string>
     <!--Added Lab 2-->
     <string name="login_title">Login</string>
     <string name="login_name">login name</string>
@@ -34,7 +34,17 @@
     <string name="minText">Min:</string>
     <string name="title_message_list">Messages</string>
     <string name="title_message_detail">Message Detail</string>
+    <string name="title_activity_test_toolbar">TestToolbar</string>
     <!--Added Lab 7-->
+    <!--Added Lab 8-->
+    <string name="toolbar_start">Toolbar</string>
+    <string name="toolbar_snack_one">You\'ve selected item one</string>
+    <string name="toolbar_snack_fab">This button does nothing hahaha</string>
+    <string name="toolbar_dialog">Do you want to go back?</string>
+    <string name="toolbar_dialog_ok">Affirmative</string>
+    <string name="toolbar_dialog_cancel">Negative</string>
+    <string name="toolbar_dialog_message">Type Message Here</string>
+
 
 
 
